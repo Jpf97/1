@@ -1,0 +1,76 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "stdlib.h"
+	
+using namespace std;
+
+void Basico();
+void Premium();
+void Deluxe();
+
+void main()
+{
+   int opcion;  
+    do{
+        cout << "\n\t\tBienvenido A ECO Wash!:)\n\n";
+        cout << "\n\t\t ¿Qué lavado le gustaria? \n";
+        cout << "\n\t\t 1. Basico \n";
+        cout << "\n\t\t 2. Premium \n";
+        cout << "\n\t\t 3. Deluxe \n";
+        cout << "\n\t\t 0. Salir \n";
+        cin >> opcion;
+
+            switch (opcion)
+            {
+                case 1: Basico();
+					    break;
+                  
+                case 2: Premium();
+                        break;
+
+                case 3: Deluxe();
+                        break;
+
+                case 0: cout << "\nGracias por favor venga de nuevo.\n";
+				        break;
+
+				   default: cout<<"Opcion invalida\n";
+            }
+			      system("cls");
+
+       }  
+	  while (opcion!=0);
+      getch();
+
+}
+
+void Basico ()
+{
+	    cout << "\n\tLavado Basico"<<endl;
+	    cout << "\n\nEste incluye nuestro lavado basico paño suave\n";
+		cout << "\nSu vehiculo es ahora agradable y limpio\n";
+        cout << "\nSu total se ha añadido a la recepcion\n";
+        cout << "\nGracias por usar el lavado ECO Wash!\n";
+		getch();
+}
+
+void Premium()
+{
+	    cout << "\n\tLavado Premium"<<endl;
+	    cout << "\n\nEste lavado deja su vehiculo limpio y reluciente\n";
+        cout << "\nSu recubrimiento especial está incluido para brillo adicional\n";
+        cout << "\nSu total se ha añadido a la recepcion\n";
+		cout << "\n\nGracias por usar el lavado ECO Wash! :)\n";
+		getch();
+}
+
+void Deluxe ()
+{
+	    cout << "\n\tLavado Deluxe"<<endl;
+        cout << "\n\nEsta opcion es nuestro mejor lavado. Incluye nuestra recubrimiento especial y cera.\n";
+        cout << "\nAhora tiene el coche mas limpio y más brillante en la ciudad!\n";
+        cout << "\nSu total se ha añadido a la recepcion\n";
+        cout << "\n\nGracias por usar el lavado ECO Wash! :)\n";           
+        getch();
+}
