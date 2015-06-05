@@ -1,0 +1,25 @@
+/// rango_de_numeros///
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ();
+using namespace std;
+
+int main() 
+{
+	float numero;
+	cin >> numero;
+	cout << "El numero esta" << endl;
+	if ((numero>10) && (numero<20)) 
+	{
+		cout << "dentro del rango" << endl;
+	} 
+	else 
+	{
+		cout << "fuera del rango" << endl;
+	}
+	return 0;
+}
