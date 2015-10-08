@@ -13,8 +13,8 @@ void main()
 {
    int opcion;  
     do{
-        cout << "\n\t\tBienvenido A ECO Wash!:)\n\n";
-        cout << "\n\t\t ¿Qué lavado le gustaria? \n";
+        cout << "\n\t\tBienvenido a ECO Wash!:)\n\n";
+        cout << "\n\t\t --Que lavado le gustaria? \n";
         cout << "\n\t\t 1. Basico \n";
         cout << "\n\t\t 2. Premium \n";
         cout << "\n\t\t 3. Deluxe \n";
@@ -48,9 +48,9 @@ void main()
 void Basico ()
 {
 	    cout << "\n\tLavado Basico"<<endl;
-	    cout << "\n\nEste incluye nuestro lavado basico paño suave\n";
+	    cout << "\n\nEste incluye nuestro lavado basico panho suave\n";
 		cout << "\nSu vehiculo es ahora agradable y limpio\n";
-        cout << "\nSu total se ha añadido a la recepcion\n";
+        cout << "\nSu total se ha anhadido a la recepcion\n";
         cout << "\nGracias por usar el lavado ECO Wash!\n";
 		getch();
 }
@@ -59,8 +59,8 @@ void Premium()
 {
 	    cout << "\n\tLavado Premium"<<endl;
 	    cout << "\n\nEste lavado deja su vehiculo limpio y reluciente\n";
-        cout << "\nSu recubrimiento especial está incluido para brillo adicional\n";
-        cout << "\nSu total se ha añadido a la recepcion\n";
+        cout << "\nSu recubrimiento especial esta incluido para brillo adicional\n";
+        cout << "\nSu total se ha anhadido a la recepcion\n";
 		cout << "\n\nGracias por usar el lavado ECO Wash! :)\n";
 		getch();
 }
@@ -69,8 +69,8 @@ void Deluxe ()
 {
 	    cout << "\n\tLavado Deluxe"<<endl;
         cout << "\n\nEsta opcion es nuestro mejor lavado. Incluye nuestra recubrimiento especial y cera.\n";
-        cout << "\nAhora tiene el coche mas limpio y más brillante en la ciudad!\n";
-        cout << "\nSu total se ha añadido a la recepcion\n";
+        cout << "\nAhora tiene el coche mas limpio y mas brillante en la ciudad!\n";
+        cout << "\nSu total se ha anhadido a la recepcion\n";
         cout << "\n\nGracias por usar el lavado ECO Wash! :)\n";           
         getch();
 }
